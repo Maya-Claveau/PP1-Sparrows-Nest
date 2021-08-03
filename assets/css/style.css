@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Josefin+Sans, sans-serif;
+    font-weight: 300;
 }
