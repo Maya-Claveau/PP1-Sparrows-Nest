@@ -25,3 +25,34 @@ h1, h2 {
     float: left;
     font-size: 300%;
 }
+
+/* navigation bar */
+
+#menu {
+    font-size: 130%;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#menu, #logo {
+    line-height: 150px;
+}
+
+#menu li {    
+    list-style-type: none;
+    margin-right: 40px;       
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    color: #8083ff;
+}
+
+.active {
+    border-bottom: 1px solid #8083ff;
+}
