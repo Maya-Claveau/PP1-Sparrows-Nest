@@ -63,18 +63,23 @@ h1, h2 {
     height: 600px;
     width: 100%;
     clear: both;
+
+    /* position: relative; */
 }
 
 #main-image {
     height: 600px;
     width: 100%;
     background: url("/assets/images/Main.jpg") no-repeat center center;
+    position: relative;
 
 
 /* animates zoom effect on loading page*/
 animation-name: main-zoom;
 animation-duration: 5s;
 animation-fill-mode: forwards;
+
+
 }
 
 /* create zoom effect of the main image*/
@@ -87,3 +92,24 @@ animation-fill-mode: forwards;
         transform: scale(1.2);
     }
 }
+
+button {
+    position: absolute;
+    color: #2e2e2e;
+    font-size: 120%;
+    font-family: Josefin+Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+    width: 140px;
+    height: 70px;
+
+    background-color: rgba(211,251,216, .5);
+
+    top: 85%;
+    left: 45%;
+}
+
+button:hover {
+    background-color: #D3FBD8;
+  }
