@@ -128,39 +128,37 @@ button:hover {
   }
   
   .container-1 {
-      display:flex;
-      justify-content: space-around;
-      margin: 30px;
-      letter-spacing: 3px;
+      margin-left: 80px;
+      margin-right: 80px;
+      text-align: center;
   }
 
-  .reasons-1 {
-    flex: 2;
-    margin-right: 30px;
+  
+  p {
+      text-align: justify;
+      line-height: 30px;
   }
 
-  .reasons-2 {
-    flex: 2;
-    
+  .review-link {
+    text-align: center;
+    margin: 40px;
+}
+
+.review-link a:hover {
+    background-color: #D3FBD8;
   }
 
-  .container-2 {
-      display: flex;
+  @media (max-width: 600px) {
+   h1, h3, p {
+        font-size: 65%;
+        line-height: 20px;
+    }
   }
 
-  .reasons-3 {
-    flex: 1;
-    background-color: hotpink;
-  }
-
-  .reasons-4 {
-    flex: 1;
-    background-color: indigo;
-  }
-
-  .reasons-5 {
-    flex: 1;
-    background-color: lawngreen;
+  @media (max-width: 800px) {
+      p {
+          font-size: 80%;
+      }
   }
 
  
