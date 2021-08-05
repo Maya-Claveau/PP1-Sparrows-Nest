@@ -14,11 +14,17 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Josefin+Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #131313;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+
 }
 
 #logo {
@@ -36,13 +42,14 @@ h1, h2 {
     justify-content: flex-end;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 150px;
 }
 
-#menu li {    
+#menu li {
     list-style-type: none;
-    margin-right: 40px;       
+    margin-right: 40px;
 }
 
 #menu a {
@@ -76,10 +83,10 @@ h1, h2 {
     position: relative;
 
 
-/* animates zoom effect on loading page*/
-animation-name: main-zoom;
-animation-duration: 5s;
-animation-fill-mode: forwards;
+    /* animates zoom effect on loading page*/
+    animation-name: main-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 
 
 }
@@ -87,10 +94,11 @@ animation-fill-mode: forwards;
 /* create zoom effect of the main image*/
 
 @keyframes main-zoom {
-    from{
-      transform: scale(1);  
+    from {
+        transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.2);
     }
 }
@@ -106,7 +114,7 @@ button {
     width: 140px;
     height: 70px;
 
-    background-color: rgba(211,251,216, .5);
+    background-color: rgba(211, 251, 216, .5);
 
     top: 85%;
     left: 45%;
@@ -114,51 +122,58 @@ button {
 
 button:hover {
     background-color: #D3FBD8;
-  }
+}
 
-  /* why booking with us */
+/* why booking with us */
 
-  #booking-reasons {
-      height: 600px;
-  }
-  h1 {
-      text-align: center;
-      margin-bottom: 50px;
-      
-  }
-  
-  .container-1 {
-      margin-left: 80px;
-      margin-right: 80px;
-      text-align: center;
-  }
+#booking-reasons {
+    height: 600px;
+}
 
-  
-  p {
-      text-align: justify;
-      line-height: 30px;
-  }
+.container-1 {
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+}
 
-  .review-link {
+p {
+    text-align: justify;
+    line-height: 30px;
+}
+
+/* online review link */
+.review-link {
     text-align: center;
     margin: 40px;
+    letter-spacing: 3px;
 }
 
 .review-link a:hover {
     background-color: #D3FBD8;
-  }
+}
 
-  @media (max-width: 600px) {
-   h1, h3, p {
-        font-size: 65%;
-        line-height: 20px;
+/* Media queries */
+
+/* For medium to large screen size from 1200px width and below*/
+@media screen and (max-width: 1200px) {
+
+    #booking-reasons {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;        
     }
-  }
 
-  @media (max-width: 800px) {
-      p {
-          font-size: 80%;
-      }
-  }
+    .container-1 {
+        width: 100%;
+        float: left;
+        padding: 0;
+        margin: 0;
+    }
 
- 
+   }
+
+/* @media (max-width: 800px) {
+     {
+        
+    }
+} */
