@@ -12,6 +12,12 @@ body {
     color: #2e2e2e;
 }
 
+/* header {
+    position: fixed;
+    z-index: 2;
+    width 100%;
+} */
+
 /* headings and logo */
 
 h1, h2, h3 {
@@ -33,6 +39,8 @@ h2 {
     margin-left: 40px;
 }
 
+
+
 /* navigation bar */
 
 #menu {
@@ -44,7 +52,7 @@ h2 {
 
 #menu,
 #logo {
-    line-height: 150px;
+    line-height: 150px;   
 }
 
 #menu li {
@@ -70,9 +78,7 @@ h2 {
 #main-outlayer {
     height: 600px;
     width: 100%;
-    clear: both;
-
-    /* position: relative; */
+    clear: both;    
 }
 
 #main-image {
@@ -81,6 +87,7 @@ h2 {
     background: url("/assets/images/Main.jpg") no-repeat center center;
     margin-top: 30px;
     position: relative;
+    /* z-index: 1; */
 
 
     /* animates zoom effect on loading page*/
@@ -188,6 +195,9 @@ p {
         margin-bottom: 25px;
         line-height: 25px;         
     } */
+    span {
+        display: none;
+    }
 
     #logo, #menu, button {
         font-size: 100%;
@@ -197,6 +207,12 @@ p {
         width: 100px;
         height: 50px;
         font-size: 70%;
+    }
+
+    #main-image {
+        height: 50%;
+        width: 100%;
+        
     }
 
     #booking-reasons {
