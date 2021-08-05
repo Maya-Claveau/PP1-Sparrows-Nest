@@ -12,11 +12,12 @@ body {
     color: #2e2e2e;
 }
 
-/* header {
+header {
     position: fixed;
     z-index: 2;
-    width 100%;
-} */
+    width: 100%;
+    background-color: #d3d3d3;
+}
 
 /* headings and logo */
 
@@ -78,7 +79,8 @@ h2 {
 #main-outlayer {
     height: 600px;
     width: 100%;
-    clear: both;    
+    clear: both;
+    padding-top: 180px;
 }
 
 #main-image {
@@ -168,7 +170,7 @@ p {
         font-size: 150%;
     }
     
-    #menu, {
+    #menu {
         font-size: 100%;        
     }
 
