@@ -16,12 +16,14 @@ header {
     position: fixed;
     z-index: 2;
     width: 100%;
-    background-color: rgba(211,251,216, .4);
+    background-color: rgba(211, 251, 216, .4);
 }
 
 /* headings and logo */
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: Josefin+Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -37,7 +39,7 @@ h2 {
 #logo {
     float: left;
     font-size: 250%;
-    margin-left: 40px;
+    padding-left: 40px;
 }
 
 
@@ -47,18 +49,18 @@ h2 {
 #menu {
     font-size: 130%;
     letter-spacing: 3px;
-    display: flex;
-    justify-content: flex-end;
+    display: flex;    
+    justify-content: flex-end;  
+   
 }
 
 #menu,
 #logo {
-    line-height: 100px;   
+    line-height: 100px;
 }
 
 #menu li {
-    list-style-type: none;
-    margin-right: 40px;
+    list-style-type: none;    
 }
 
 #menu a {
@@ -86,10 +88,10 @@ h2 {
 #main-image {
     height: 500px;
     width: 100%;
-    background: url("/assets/images/Main.jpg") no-repeat center center;
+    background: url("../images/Main.jpg") no-repeat center center;
     margin-top: 30px;
     position: relative;
- 
+
 
 
     /* animates zoom effect on loading page*/
@@ -143,7 +145,7 @@ h2 {
 
 .container-1 {
     margin-left: 80px;
-    margin-right: 80px;    
+    margin-right: 80px;
     text-align: center;
 }
 
@@ -155,10 +157,10 @@ p {
 
 /* online review link */
 .review-link {
-    text-align: center;    
+    text-align: center;
     letter-spacing: 3px;
-    padding-top: 30px; 
-    padding-bottom: 20px;    
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .review-link a:hover {
@@ -172,11 +174,11 @@ p {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    
+
 }
 
-.box1 {    
-    flex-basis: 15%;    
+.box1 {
+    flex-basis: 15%;
     font-size: 110%;
     text-align: right;
 }
@@ -201,36 +203,50 @@ p {
     #logo {
         font-size: 150%;
     }
-    
+
     #menu {
-        font-size: 100%;        
+        font-size: 100%;
     }
 
     #booking-reasons {
         width: 75%;
         height: 600px;
-        margin: 0 auto;        
+        margin: 0 auto;
     }
 
     .container-1 {
         width: 100%;
         padding: 0;
-        margin: 0;           
+        margin: 0;
     }
 
-   }
-   /* For small to medium screen size from 900px width and below*/
+}
+
+/* For small to medium screen size from 900px width and below*/
 @media screen and (max-width: 950px) {
-     
+
     span {
         display: none;
     }
 
-    #logo, #menu, button {
-        font-size: 100%;
+    #menu,
+    #logo {
+        line-height: 80px;
     }
 
-    button {
+    #menu {
+        font-size: 70%;
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+
+
+    #logo {
+        font-size: 80%;
+        padding-left: 15px;
+    }
+
+    #booking-button {
         width: 100px;
         height: 50px;
         font-size: 70%;
@@ -242,7 +258,7 @@ p {
 
     #main-image {
         height: 80%;
-        width: 100%;        
+        width: 100%;
     }
 
     #booking-reasons {
@@ -253,5 +269,5 @@ p {
         padding-left: 20px;
     }
 
-    
+
 }
