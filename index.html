@@ -93,14 +93,37 @@
             <div class="box1">
                 <h4 id="direction"><i class="fas fa-map-marker-alt"></i> Find us here</h4>
             </div>
+
             <div id="map" class="box2">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.8728648586407!2d33.627415015747474!3d34.90963987950586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14e0837e34d6d4b1%3A0xce6fd6be0d58ad15!2sSparrows%20Nest!5e0!3m2!1sen!2sse!4v1628238718631!5m2!1sen!2sse"
                     width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
+
             <div id="form" class="box3">
-                <form>
-                    
+                <form action="" method="GET">
+                    <fieldset>
+                        <legend>Request Form</legend>
+                        <div class="Request-form">
+                            <label for="name">Full Name
+                                <input type="text" id="name" name="name" required>
+                            </label>
+                        </div>
+
+                        <div class="Request-form">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="Request-form">
+                            
+                            <textarea name="text-field" id="text-field" cols="60" rows="15" placeholder="Please enter your message here"></textarea>
+                        </div>
+                        <div class="Request-form">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </fieldset>
+
                 </form>
             </div>
         </section>
