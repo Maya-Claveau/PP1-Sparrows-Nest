@@ -150,20 +150,48 @@ h2 {
 p {
     text-align: justify;
     line-height: 30px;
+    font-size: 110%;
 }
 
 /* online review link */
 .review-link {
     text-align: center;    
     letter-spacing: 3px;
-    padding-top: 30px;
+    padding-top: 30px; 
+    padding-bottom: 20px;    
 }
 
 .review-link a:hover {
     color: #8083FF;
 }
 
-/* */
+/* Direction and map*/
+
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.box1 {    
+    flex-basis: 15%;    
+    font-size: 110%;
+    text-align: right;
+}
+
+#direction:hover {
+    color: #8083FF;
+}
+
+.box2 {
+    flex-basis: 35%;
+}
+
+.box3 {
+    flex-basis: 45%;
+}
 
 /* Media queries */
 
@@ -180,7 +208,7 @@ p {
 
     #booking-reasons {
         width: 75%;
-        height: 1200px;
+        height: 600px;
         margin: 0 auto;        
     }
 
@@ -222,6 +250,7 @@ p {
         width: 100%;
         height: auto;
         margin: 0;
+        padding-left: 20px;
     }
 
     
