@@ -52,6 +52,7 @@ h2 {
     word-spacing: 5px;
     display: flex;
     justify-content: flex-end;
+    flex-flow: wrap;
 
 }
 
@@ -62,6 +63,7 @@ h2 {
 
 #menu li {
     list-style-type: none;
+    padding-right: 20px;
 }
 
 #menu a {
@@ -172,22 +174,23 @@ p {
 
 .container-2 {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-flow: row, wrap;    
     justify-content: space-between;
     padding-bottom: 20px;
-
+    align-content: flex-start;
+    padding-top: 30px;
 }
 
 .box1 {
     flex-basis: 18%;
     font-size: 110%;
     text-align: right;
-
+    padding-right: 10px;
 }
 
 #direction:hover {
     color: #8083FF;
+    transform: scale(1.1);    
 }
 
 /* #direction:focus {
@@ -197,7 +200,7 @@ p {
 .box2 {
     flex-basis: 35%;
     width: 100%;
-
+    padding-right: 10px;
 }
 
 /* request form */
@@ -210,7 +213,7 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
+   
 }
 
 .form {
@@ -254,13 +257,13 @@ p {
 
 .footer-container {
     display: flex;
-    flex-flow: row;
+    flex-flow: row, wrap;
     justify-items: center;
     justify-content: space-evenly;
     background-color: rgba(69, 67, 82, .5);
     color: #FAF7FF;
-    flex-wrap: wrap;
     height: 80px;
+    align-items: flex-end;
 }
 
 .footer-container h4 {
@@ -279,8 +282,6 @@ table {
     width: 350px;
     font-size: 100%;
 }
-
-
 
 /* Footer - Social Media section*/
 
@@ -346,10 +347,23 @@ table {
     #submit-button {
         font-size: 110%;  
         width: 80px;
-        height: 30px;    
-        
+        height: 30px;           
     }
     
+    .footer-container, .footer-div {
+        height: 70px;
+    }
+
+
+    table {
+        width: 280px;
+        font-size: 80%;
+    }
+
+    .social-links {
+        padding-right: 20px;
+        font-size: 110%;
+    }
     
 
 }
@@ -414,23 +428,65 @@ table {
     .container-2 {
         flex-flow: column;
         align-items: center;
-        height: 250px;
-        width: 100%;
-        flex-basis: content;
-        font-size: 70%;
-                  
+        height: 500px;
+        width: 100%;        
+        
+    }
+
+    .box1 {
+        flex-basis: 10%;
+    }
+
+    .box2 {
+        flex-basis: 45%;
+        width: 80%;
+        padding-right: 0;
+    }
+
+    .box3 {
+        width: 90%;
+        font-size: 100%;
+        flex-grow: 5;
     }
 
     iframe {
         width: 90%;
         height: 180px;
     }
+    
+    .footer-container {
+        display: flex;  
+        flex-direction: column;        
+        justify-items: center;        
+        background-color: white;
+        color: #2e2e2e;
+        height: 90px;
+        align-items: center;
+        justify-content: stretch;
+    }
 
-    .footer-container {        
-        flex-flow: column;
-        justify-content: center;
-        justify-items: center;
-        justify-content: space-evenly;
+
+    table {
+        width: 280px;
+        font-size: 80%;
+    }
+
+    .mobile-footer {
+        width: 100%;
+        height: 60px;
+        background-color: rgba(69, 67, 82, .5);
+        color: #FAF7FF;
+        text-align: center;
+    }
+
+    #followus {
+        display: none;
+    }
+
+    .social-links {
+        padding-top: 10px;
+        padding-right: 50px;
+        font-size: 110%;
     }
 
 }
