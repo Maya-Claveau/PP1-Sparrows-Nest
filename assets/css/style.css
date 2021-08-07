@@ -247,15 +247,33 @@ p {
     font-weight: bold;
     height: 40px;
     width: 100px;
-    box-shadow: 3px 3px 7px #8083FF;
+    box-shadow: 3px 3px 7px #2023d6;
 }
 
-/* Footer - Contact us section*/
+/* Footer */
 
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.footer-container h4 {
+    padding-bottom: 8px;
+    padding-top: 30px;
+    text-align: center;
+}
 
-/* Footer - Opening Hours section*/
+/* Footer - Contact us and Opening Hours section*/
 
+table {
+    table-layout: fixed;
+    width: 350px;
+    font-size: 100%;
+}
+
+table #address {
+    width: 150px;
+}
 
 
 /* Footer - Question Button section*/
