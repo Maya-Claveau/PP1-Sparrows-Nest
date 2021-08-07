@@ -175,7 +175,7 @@ p {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    
+
 
 }
 
@@ -183,7 +183,7 @@ p {
     flex-basis: 18%;
     font-size: 110%;
     text-align: right;
-    
+
 }
 
 #direction:hover {
@@ -196,8 +196,8 @@ p {
 
 .box2 {
     flex-basis: 35%;
-    width: 100%;   
-    
+    width: 100%;
+
 }
 
 /* request form */
@@ -210,13 +210,13 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    
+
 }
 
 .form {
     width: 50%;
     position: relative;
-    height: 40px;    
+    height: 50px;
     font-size: 110%;
 }
 
@@ -228,7 +228,7 @@ p {
     font-size: 100%;
     border: none;
     border-bottom: 3px solid #8083FF;
-    outline:none;
+    outline: none;
 }
 
 .form label {
@@ -239,14 +239,30 @@ p {
 
 #message-field {
     width: 80%;
-    height: 120px;    
+    height: 120px;
 }
 
 #submit-button {
     font-size: 130%;
-    font-weight: bold;    
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
     box-shadow: 3px 3px 7px #8083FF;
 }
+
+/* Footer - Contact us section*/
+
+
+
+/* Footer - Opening Hours section*/
+
+
+
+/* Footer - Question Button section*/
+
+
+
+/* Footer - Social Media section*/
 
 
 
@@ -276,6 +292,42 @@ p {
         padding: 0;
         margin: 0;
     }
+
+    .container-2 {
+        font-size: 70%;
+    }
+
+    iframe {
+        width: 90%;
+        height: 205px;
+    }
+    
+
+    .box3 {
+        width: 80%;
+        font-size: 100%;
+    }
+
+    .form {
+        height: 40px;
+    }
+
+    .form input {
+        padding-top: 5px;
+    }
+
+    #message-field {
+        height: 80px;
+    }
+
+    #submit-button {
+        font-size: 110%;  
+        width: 80px;
+        height: 30px;    
+        
+    }
+    
+    
 
 }
 
@@ -338,21 +390,17 @@ p {
 
     .container-2 {
         flex-flow: column;
-        justify-content: stretch;
-        justify-content: space-evenly;
-        line-height: 100px;
+        align-items: center;
+        height: 250px;
         width: 100%;
         flex-basis: content;
-    }
-
-    .box1 {
         font-size: 70%;
-        text-align: center;
+                  
     }
 
-    .box2 {
-        
+    iframe {
+        width: 90%;
+        height: 180px;
     }
-
 
 }
