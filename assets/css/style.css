@@ -58,7 +58,7 @@ h2 {
 
 #menu,
 #logo {
-    line-height: 100px;
+    line-height: 80px;
 }
 
 #menu li {
@@ -85,7 +85,7 @@ h2 {
     height: 600px;
     width: 100%;
     clear: both;
-    padding-top: 180px;
+    padding-top: 130px;
 }
 
 #main-image {
@@ -257,14 +257,10 @@ p {
 
 .footer-container {
     display: flex;
-    flex-flow: row, wrap;
-    justify-items: center;
     justify-content: space-evenly;
     background-color: rgba(69, 67, 82, .5);
     color: #FAF7FF;
-    height: 105px;
-    align-items: flex-end;
-    
+    height: 95px;
 }
 
 .footer-container h4 {
@@ -274,7 +270,7 @@ p {
 }
 
 .footer-div, .mobile-footer {
-    height: 90px;
+    height: 60px;
     padding-top: 5px;
     padding-bottom: 10px;
     
@@ -294,6 +290,22 @@ table {
     font-size: 130%;
 }
 
+
+/* Gallery page*/
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;    
+    padding-top: 110px;
+    padding-bottom: 20px;
+}
+
+.img-item {
+    margin: 5px;
+    height: 40vh;
+    flex-grow: 1;    
+    object-fit: cover;
+}
 
 
 /* Media queries */
@@ -355,9 +367,9 @@ table {
     }
     
     .footer-container, .footer-div {
-        height: 70px;
+        height: 80px;
+        font-size: 95%;
     }
-
 
     table {
         width: 280px;
@@ -381,7 +393,7 @@ table {
 
     #menu,
     #logo {
-        line-height: 35px;
+        line-height: 30px;
     }
 
     #menu {
@@ -464,9 +476,14 @@ table {
         justify-items: center;        
         background-color: white;
         color: #2e2e2e;
-        height: 90px;
+        height: 200px;
         align-items: center;
-        justify-content: stretch;
+        flex-grow: 1;
+        
+    }
+
+    .footer-div {
+        font-size: 120%;
     }
 
 
@@ -494,6 +511,12 @@ table {
         padding-top: 10px;
         padding-right: 50px;
         font-size: 110%;
+    }
+
+    /* Gallery page */
+
+    .img-container {            
+        padding-top: 150px;
     }
 
 }
