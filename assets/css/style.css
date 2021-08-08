@@ -307,6 +307,20 @@ table {
     object-fit: cover;
 }
 
+/* Booking page */
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: center;
+}
+
+
+
+#additional-info {
+    background-color: khaki;
+}
 
 /* Media queries */
 

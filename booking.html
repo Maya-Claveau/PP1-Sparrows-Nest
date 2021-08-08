@@ -38,14 +38,42 @@
         </nav>
     </header>
 
-    <section>
+    <div class="form-container">
         <form action="action-page.html" method="post">
-            <fieldset>
-                <legend>Booking Form</legend>
-            </fieldset>
+            <h2 class="booking-form">Book Online</h2>
+            <div class="form">
+                <label for="fname" name="fname">Full Name</label>
+                <input type="text" id="fname" placeholder="your full name" required>
+            </div>
+            <div class="form">
+                <label for="email" name="email">Email</label>
+                <input type="email" id="email" placeholder="your email address" required>
+            </div>
 
+            <div class="form">
+                <label for="date" name="date">Date</label>
+                <input type="date" id="date" required>
+            </div>
+
+
+            <div class="form">
+                <label for="guests" name="guests">Guests</label>
+                <label for="adult" name="adult">Adult</label>
+                <!-- <input type="select" id="adult" required> options to select -->
+                <label for="children" name="children">Children (3-12yr old)</label>
+                <!-- <input type="select" id="children"> options to select -->
+                <label for="infants" name="infants">Infants (0-3yr old)</label>
+                <!-- <input type="number" id="infants"> need to have options -->
+            </div>
+            <div class="form">
+                <p>Additional Information (optional)</p>
+                <textarea name="additional-info" id="additional-info" cols="50"
+                    rows="20">anything we should know in order to make your stay more enjoyable? Let us know here</textarea>
+            </div>
+            <button type="button" id="submit-button"
+                onclick="alert('Thank you for your message, we will get back to you asap')">Submit</button>
         </form>
-    </section>
+    </div>
 
     <footer class="footer-container">
         <div class="footer-div">
