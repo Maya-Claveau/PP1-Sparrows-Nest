@@ -262,18 +262,22 @@ p {
     justify-content: space-evenly;
     background-color: rgba(69, 67, 82, .5);
     color: #FAF7FF;
-    height: 80px;
+    height: 105px;
     align-items: flex-end;
+    
 }
 
 .footer-container h4 {
-    padding-bottom: 8px;
+    padding-bottom: 10px;
     padding-top: 10px;
     text-align: center;
 }
 
-.footer-div {
-    height: 80px;
+.footer-div, .mobile-footer {
+    height: 90px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    
 }
 
 /* Footer - Contact us and Opening Hours section*/
@@ -477,6 +481,9 @@ table {
         background-color: rgba(69, 67, 82, .5);
         color: #FAF7FF;
         text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
     }
 
     #followus {
