@@ -336,6 +336,20 @@ table {
     background-color: khaki;
 }
 
+
+/* Form action page */
+
+    
+.action-message {
+    text-align: center;
+}
+
+.action-image {
+    background-image: no-repeat;
+    height: 50&;
+    width: fit-content;
+}
+
 /* Media queries */
 
 /* For medium to large screen size from 1200px width and below*/
