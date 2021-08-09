@@ -87,7 +87,7 @@
         </section>
 
         <section class="container-2">
-            
+
             <div id="map" class="box2">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6543.746038923605!2d33.629604!3d34.909636!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xce6fd6be0d58ad15!2sSparrows%20Nest!5e0!3m2!1sen!2sse!4v1628322615181!5m2!1sen!2sse"
@@ -96,21 +96,24 @@
 
             <div class="box3">
                 <h3>Request Form</h3>
-                <div class="form">
-                    <label for="name" class="label-name">Name</label>
-                    <input type="text" name="name" autocomplete="off" required>
-                </div>
-                <div class="form">
-                    <label for="name" class="label-name">Email</label>
-                    <input type="email" name="email" autocomplete="off" required>
-                </div>
-                <div class="form" id="message-field">
-                    <label for="message-field" class="label-name">Your Message</label>
-                    <input type="text" name="message-field" autocomplete="off" required
-                        placeholder="Any questions or special request? Please let me us know">
-                </div>
-                <button type="submit" id="submit-button"
-                    onclick="alert('Thank you for your message, we will get back to you asap')">Submit</button>
+                <p>Any questions or special request? Please let me us know</p>
+                <form action="" method="POST">
+                    <div class="form">
+                        <label for="name" class="label-name">Name</label>
+                        <input type="text" name="name" autocomplete="off" required>
+                    </div>
+                    <div class="form">
+                        <label for="name" class="label-name">Email</label>
+                        <input type="email" name="email" autocomplete="off" required>
+                    </div>
+                    <div class="form" id="message-field">
+                        <label for="message-field" class="label-name">Your Message</label>
+                        <input type="text" name="message-field" autocomplete="off" required>
+                    </div>
+                    <div class="form">
+                        <input type="submit" id="submit-button" value="Submit" required>
+                    </div>
+                </form>
             </div>
         </section>
     </main>

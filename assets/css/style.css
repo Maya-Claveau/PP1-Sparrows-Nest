@@ -200,15 +200,6 @@ p {
     padding-right: 10px;
 }
 
-#direction:hover {
-    color: #8083FF;
-    transform: scale(1.1);    
-}
-
-/* #direction:focus {
-    font-size: ;
-} */
-
 .box2 {
     flex-basis: 35%;
     width: 100%;
@@ -223,9 +214,18 @@ p {
     background-color: rgba(211, 251, 216, .5);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-   
+    align-content: stretch;
+    justify-content:flex-start;
+}
+
+.box3 h3 {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.box3 > p {
+    text-align: center;
 }
 
 .form {
@@ -233,6 +233,7 @@ p {
     position: relative;
     height: 50px;
     font-size: 110%;
+    padding: 20px;    
 }
 
 .form input {
@@ -244,6 +245,7 @@ p {
     border: none;
     border-bottom: 3px solid #8083FF;
     outline: none;
+    border-radius: 15px;
 }
 
 .form label {
@@ -258,11 +260,11 @@ p {
 }
 
 #submit-button {
-    font-size: 130%;
+    font-size: 120%;
     font-weight: bold;
-    height: 40px;
-    width: 100px;
     box-shadow: 3px 3px 7px #2023d6;
+    text-align: center;
+    padding-top: 0;
 }
 
 /* Footer */
