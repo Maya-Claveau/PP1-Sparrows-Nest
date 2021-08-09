@@ -62,7 +62,7 @@ h2 {
 
 #menu,
 #logo {
-    line-height: 80px;
+    line-height: 75px;
 }
 
 #menu li {
@@ -76,12 +76,18 @@ h2 {
 }
 
 #menu a:hover {
-    color: #8083ff;
+    background-color: #8083ff;
+    color: #FAF7FF;
+    border-radius: 6px;
 }
 
-.active > a{
-    border-bottom: 1px solid #8083ff;
+.active span {
+    border-style: none;
 }
+
+/* .active {
+    border-bottom: 1px solid #8083ff;
+} */
 
 /* main image */
 
