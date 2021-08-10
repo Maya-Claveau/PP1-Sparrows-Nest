@@ -35,68 +35,64 @@
         </nav>
     </header>
 
-    <div class="form-container">
+    <section class="form-container">
         <form action="action-page.html" method="post">
             <h2 class="booking-form">Book Online</h2>
-            <div class="form">
+            <div class="form booking-form">
                 <label for="fname" name="fname">Full Name</label>
                 <input type="text" id="fname" placeholder="your full name" required>
             </div>
-            <div class="form">
+            <div class="form booking-form">
                 <label for="email" name="email">Email</label>
                 <input type="email" id="email" placeholder="your email address" required>
             </div>
 
-            <div class="form">
+            <div class="form booking-form">
                 <label for="date" name="date">Date</label>
                 <input type="date" id="date" required>
             </div>
-
-            <div class="form">
+            <div class="form guests-container booking-form">
                 <h3>Guests</h3>
-                <div class="form-fields guests">
-                    <label>Adult</label>
-                    <select class="select1">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                    </select>
+                <div class="form guests-option">
+                    <table>
+                        <tr>
+                            <th>Adult</th>
+                            <td><select class="select1">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Children (3-12yr old)</th>
+                            <td><select class="select1">
+                                    <option>0</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <th>Infants (0-3yr old)</th>
+                            <td><select class="select1">
+                                    <option>0</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                </select></td>
+                        </tr>
+                    </table>
                 </div>
-                <div class="form-fields guests">
-                    <label for="kids3+">Children (3-12yr old)</label>
-                    <select class="select2">
-                        <option>0</option>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                    </select>
-                </div>
-                <div class="form-fields guests">
-                    <label for="kids0-3">Infants (0-3yr old)</label>
-                    <select class="select2">
-                        <option>0</option>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                    </select>
-                </div>
-                <div class="form-fields">
-                    <label for="text-field">Your message here:</label>
-                </div>
-                <div>
-                    <textarea name="request-message" id="text-field" cols="60" rows="20">
-                </div>
-             </div>    
-                
-                <div class="form">
-                  <p>Additional Information (optional)</p>
-                  <textarea name="additional-info" id="additional-info" cols="50"
-                    rows="20">anything we should know in order to make your stay more enjoyable? Let us know here</textarea>
-                </div>
-                <input type="submit" id="submit-button" value="Submit" required>
             </div>    
+                <div class="form booking-form booking-message">
+                    <p>Anything we should know in order to make your stay more enjoyable? Please let us know</p>
+                    <textarea name="request-message" id="text-field" cols="50" rows="12"></textarea>
+                </div>      
+                <input type="submit" id="booking-button" class="booking-form" value="Submit" required>
+               
         </form>
-    </div>
+    </section>
 
     <footer class="footer-container">
         <div class="footer-div">
