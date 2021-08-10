@@ -342,12 +342,18 @@ table {
     
 .action-message {
     text-align: center;
+    padding-top: 100px;
+}
+.action-message p {
+    text-align: center;
+    padding-bottom: 50px;    
 }
 
 .action-image {
     background-image: no-repeat;
     height: 50&;
     width: fit-content;
+    margin: auto;
 }
 
 /* Media queries */
