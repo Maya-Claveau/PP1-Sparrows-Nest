@@ -85,27 +85,29 @@ h2 {
     border-style: none;
 }
 
-/* .active {
-    border-bottom: 1px solid #8083ff;
-} */
+#menu a:active {
+    border-bottom: 10px solid #8083ff;
+}
+
 
 /* main image */
 
 #main-outlayer {
     height: 600px;
-    width: 100%;
+    width: 90%;
     clear: both;
-    padding-top: 130px;
+    padding-top: 120px;
+    margin: auto;
 }
 
 #main-image {
-    height: 500px;
-    width: 100%;
+    height: 600px;
+    width: 90%;
     background: url("../images/Main.jpg") no-repeat center center;
-    margin-top: 30px;
+    padding-top: 30px;
     position: relative;
-
-
+    margin: auto;
+    
 
     /* animates zoom effect on loading page*/
     animation-name: main-zoom;
@@ -134,10 +136,10 @@ h2 {
     letter-spacing: 3px;
 
     width: 140px;
-    height: 70px;
+    height: 60px;
 
     background-color: rgba(211, 251, 216, .5);
-
+    border-radius: 7px;
     top: 85%;
     left: 45%;
 }
@@ -150,10 +152,11 @@ h2 {
 
 #booking-reasons {
     height: 500px;
+    margin-bottom: 50px;
 }
 
 #booking-reasons h2 {
-    padding-top: 40px;
+    padding-top: 100px;
 }
 
 .container-1 {
@@ -233,7 +236,8 @@ p {
     position: relative;
     height: 50px;
     font-size: 110%;
-    padding: 20px;    
+    padding: 20px;
+    flex: 1 0 auto;
 }
 
 .form input {
@@ -265,6 +269,8 @@ p {
     box-shadow: 3px 3px 7px #2023d6;
     text-align: center;
     padding-top: 0;
+    background-color: #787586;
+    color: #FAF7FF;
 }
 
 /* Footer */
@@ -275,6 +281,7 @@ p {
     background-color: rgba(69, 67, 82, .5);
     color: #FAF7FF;
     height: 95px;
+    flex-shrink: 0;
 }
 
 .footer-container h4 {
@@ -351,7 +358,7 @@ table {
 
 .action-image {
     background-image: no-repeat;
-    height: 50&;
+    height: 50%;
     width: fit-content;
     margin: auto;
 }
@@ -455,12 +462,10 @@ table {
         color: black;
     }
 
-    #menu li {
-        
-    }
-
+    
     #menu a:hover {
-        background-color: rgba (128, 131, 255, .5)
+        background-color: rgba (128, 131, 255, .5);
+        height: 70%;
     }
 
 
@@ -473,21 +478,27 @@ table {
         width: 100px;
         height: 50px;
         font-size: 70%;
+        left: 40%;
     }
 
     #main-outlayer {
         height: 500px;
+        padding-top: 140px;
     }
 
     #main-image {
-        height: 80%;
-        width: 100%;
+        height: 70%;
+        width: auto;
     }
 
     #booking-reasons {
         font-size: 80%;
         width: 100%;
         height: auto;
+    }
+
+    #booking-reasons h2 {
+        padding-top: 30px;
     }
 
     .container-1 {

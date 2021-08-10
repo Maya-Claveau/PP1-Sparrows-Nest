@@ -52,23 +52,49 @@
                 <input type="date" id="date" required>
             </div>
 
-
             <div class="form">
-                <label for="guests" name="guests">Guests</label>
-                <label for="adult" name="adult">Adult</label>
-                <!-- <input type="select" id="adult" required> options to select -->
-                <label for="children" name="children">Children (3-12yr old)</label>
-                <!-- <input type="select" id="children"> options to select -->
-                <label for="infants" name="infants">Infants (0-3yr old)</label>
-                <!-- <input type="number" id="infants"> need to have options -->
-            </div>
-            <div class="form">
-                <p>Additional Information (optional)</p>
-                <textarea name="additional-info" id="additional-info" cols="50"
+                <h3>Guests</h3>
+                <div class="form-fields guests">
+                    <label>Adult</label>
+                    <select class="select1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+                <div class="form-fields guests">
+                    <label for="kids3+">Children (3-12yr old)</label>
+                    <select class="select2">
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+                <div class="form-fields guests">
+                    <label for="kids0-3">Infants (0-3yr old)</label>
+                    <select class="select2">
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+                <div class="form-fields">
+                    <label for="text-field">Your message here:</label>
+                </div>
+                <div>
+                    <textarea name="request-message" id="text-field" cols="60" rows="20">
+                </div>
+             </div>    
+                
+                <div class="form">
+                  <p>Additional Information (optional)</p>
+                  <textarea name="additional-info" id="additional-info" cols="50"
                     rows="20">anything we should know in order to make your stay more enjoyable? Let us know here</textarea>
-            </div>
-            <button type="button" id="submit-button"
-                onclick="alert('Thank you for your message, we will get back to you asap')">Submit</button>
+                </div>
+                <input type="submit" id="submit-button" value="Submit" required>
+            </div>    
         </form>
     </div>
 
