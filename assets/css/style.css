@@ -16,6 +16,7 @@ body {
     color: #2e2e2e;
     display: flex;
     flex-direction: column;
+    min-height: 100%;
 }
 
 header {
@@ -24,14 +25,12 @@ header {
     width: 100%;
     background-color: rgba(211, 251, 216, .9);
 }
-
-section {
-    flex: 1 0 auto;
+main {
+    padding-bottom: 50px;
 }
 
-footer {
-    flex-shrink: 0;
-    margin-top: 100px;
+footer {    
+    margin-top: -50px;
 }
 
 /* headings and logo */
@@ -39,7 +38,7 @@ footer {
 h1,
 h2,
 h3 {
-    font-family: Josefin+Sans, sans-serif;
+    font-family: Josefin Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #131313;
@@ -48,7 +47,6 @@ h3 {
 h2 {
     text-align: center;
     margin-bottom: 50px;
-
 }
 
 #logo {
@@ -90,14 +88,19 @@ h2 {
     background-color: #8083ff;
     color: #FAF7FF;
     border-radius: 6px;
+    font-weight: bold;
 }
 
 .active span {
     border-style: none;
 }
 
+/* #menu a:after {
+    border-bottom: 1px solid #8083ff;
+} */
+
 #menu a:active {
-    border-bottom: 10px solid #8083ff;
+    border-bottom: 2px solid rgba(128,131,255,.4);    
 }
 
 
@@ -142,12 +145,12 @@ h2 {
     position: absolute;
     color: #2e2e2e;
     font-size: 120%;
-    font-family: Josefin+Sans, sans-serif;
+    font-family: Josefin Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
 
-    width: 140px;
-    height: 60px;
+    width: 160px;
+    height: 50px;
 
     background-color: rgba(211, 251, 216, .5);
     border-radius: 7px;
@@ -160,8 +163,6 @@ h2 {
     background-color: #D3FBD8;
 }
 
-    
-    
 
 /* why booking with us */
 
@@ -195,7 +196,7 @@ p {
 }
 
 .review-link a:hover {
-    color: #8083FF;
+    color: #8083FF;    
 }
 
 .review-link i {
@@ -307,7 +308,7 @@ p {
     background-color: rgba(69, 67, 82, .5);
     color: #FAF7FF;
     height: 95px;
-    flex-shrink: 0; /* try to make footer stick to the bottom */
+    margin-top: -50px;
 }
 
 .footer-container h4 {
@@ -342,11 +343,15 @@ table {
 
 /* Gallery page*/
 
+#gallery-section {
+    padding-bottom: 50px;
+}
+
 .img-container {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;    
     padding-top: 110px;
-    padding-bottom: 20px;
 }
 
 .img-item {
@@ -365,21 +370,22 @@ table {
     align-items: center;
     height: fit-content;
     width:auto;
-    flex: 1 0 auto;    
+    flex: 1 0 auto;  
+    padding-bottom: 80px;  
 }
 
 .booking-form {    
-    width:70%;
+    width: 80%;
     height:fit-content;
     background-color: #D3FBD8;
     margin: auto;
     align-items: center;
+    text-align: center;
 }
 
 .guests-container {
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
     height: auto;
 }
 
@@ -406,10 +412,7 @@ table {
 }
 
 #submit-booking-button {
-    font-size: 140%;
-    position: absolute;
-    top: 93%;
-    left: 45%;
+    font-size: 140%;    
     width: 150px;
     height: 45px;
     color: #8083FF;
@@ -423,6 +426,7 @@ table {
 #submit-booking-button:hover {
     background-color: #8083FF;
     color: #FAF7FF;
+    padding: 0;
 }
 
 #submit-booking-button:active {
@@ -444,7 +448,7 @@ table {
 }
 
 .action-image {
-    background-image: no-repeat;
+    background: no-repeat;
     height: 50%;
     width: fit-content;
     margin: auto;
@@ -532,8 +536,14 @@ table {
 
     body {
         color: black; 
-        
     }
+
+    main {
+        padding-bottom: 80px;
+    }
+     footer {
+         margin-top: -80px;
+     }
 
     /* header */
     span {
@@ -624,7 +634,7 @@ table {
     }
 
     .box3 {
-        width: 90%;
+        width: fit-content;
         font-size: 100%;
         flex-grow: 5;
         font-size: 130%;
