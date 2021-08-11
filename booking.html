@@ -36,19 +36,23 @@
     </header>
 
     <section class="form-container">
-        <form action="action-page.html" method="post">
+        <form action="action-page.html" method="GET">
             <h2 class="booking-form">Book Online</h2>
             <div class="form booking-form">
                 <label for="fname" name="fname">Full Name</label>
-                <input type="text" id="fname" placeholder="your full name" required>
+                <input type="text" id="fname" required>
             </div>
             <div class="form booking-form">
                 <label for="email" name="email">Email</label>
-                <input type="email" id="email" placeholder="your email address" required>
+                <input type="email" id="email" required>
             </div>
 
             <div class="form booking-form">
-                <label for="date" name="date">Date</label>
+                <label for="date" name="date">Check In Date</label>
+                <input type="date" id="date" required>
+            </div>
+            <div class="form booking-form">
+                <label for="date" name="date">Check Out Date</label>
                 <input type="date" id="date" required>
             </div>
             <div class="form guests-container booking-form">
@@ -89,7 +93,7 @@
                     <p>Anything we should know in order to make your stay more enjoyable? Please let us know</p>
                     <textarea name="request-message" id="text-field" cols="50" rows="12"></textarea>
                 </div>      
-                <input type="submit" id="booking-button" class="booking-form" value="Submit" required>
+                <input type="submit" id="submit-booking-button" class="booking-form" value="Submit" required>
                
         </form>
     </section>

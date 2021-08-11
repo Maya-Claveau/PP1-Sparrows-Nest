@@ -399,11 +399,32 @@ table {
     padding-top: 10px;
 }
 
+#submit-booking-button {
+    font-size: 140%;
+    position: absolute;
+    top: 93%;
+    left: 45%;
+    width: 150px;
+    height: 45px;
+    color: #8083FF;
+    font-weight: bold;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    transition-duration: 1s;
+}
 
+#submit-booking-button:hover {
+    background-color: #8083FF;
+    color: #FAF7FF;
+}
+
+#submit-booking-button:active {
+    background-color: 8083FF;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
     
-
-
-
 /* Form action-page */
 
     
