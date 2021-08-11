@@ -381,6 +381,7 @@ table {
     margin: auto;
     align-items: center;
     text-align: center;
+    padding: 20px;
 }
 
 .guests-container {
@@ -494,9 +495,9 @@ table {
         font-size: 100%;
     }
 
-    .form {
+    /* .form {
         height: 40px;
-    }
+    } */
 
     .form input {
         padding-top: 5px;
