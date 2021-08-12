@@ -53,6 +53,12 @@ h2 {
     float: left;
     font-size: 200%;
     padding-left: 40px;
+    /* background-image: linear-gradient(to right, pink,yellow); */
+    color: #2e2e2e;
+    border-radius: 6px;
+    background: -webkit-linear-gradient(blue, purple); /* line 59-61 I borrowed from https://cssgradient.io/blog/css-gradient-text/*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -552,11 +558,7 @@ table {
     main {
         padding-bottom: 80px;
     }
-
-     footer {
-         
-     }
-
+     
     /* header */
     span {
         display: none;
