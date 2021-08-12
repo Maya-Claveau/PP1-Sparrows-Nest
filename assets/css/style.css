@@ -117,7 +117,7 @@ h2 {
 #main-image {
     height: 600px;
     width: 90%;
-    background: url("../images/Main.jpg") no-repeat center center;
+    background: url("../images/main.jpg") no-repeat center center;
     padding-top: 30px;
     position: relative;
     margin: auto;
@@ -237,16 +237,22 @@ p {
     flex-direction: column;
     align-content: stretch;
     justify-content:flex-start;
+    height: fit-content;
 }
 
 .box3 h3 {
     text-align: center;
     padding-bottom: 10px;
-    padding-top: 5px;
+    padding-top: 25px;
+}
+
+.box3 form {
+    height: 480px;
 }
 
 .box3 > p {
     text-align: center;
+    padding: 0 10px 0 10px;
 }
 
 .form {
@@ -294,6 +300,7 @@ p {
     padding-top: 0;
     background-color: #787586;
     color: #FAF7FF;
+    margin-top: 40px;
 }
 
 #submit-button:active {    
@@ -348,8 +355,7 @@ table {
 }
 
 .img-container {
-    display: flex;
-    flex-direction: column;
+    display: flex;    
     flex-wrap: wrap;    
     padding-top: 110px;
 }
@@ -482,6 +488,7 @@ table {
 
     .container-2 {
         font-size: 70%;
+        margin-top: 50px;
     }
 
     iframe {
@@ -489,15 +496,14 @@ table {
         height: 205px;
     }
     
-
     .box3 {
         width: 80%;
         font-size: 100%;
     }
 
-    /* .form {
-        height: 40px;
-    } */
+    .box3 form {
+        height: 400px;
+    }
 
     .form input {
         padding-top: 5px;
@@ -508,15 +514,15 @@ table {
     }
 
     #submit-button {
-        font-size: 110%;  
-        width: 80px;
-        height: 30px;           
+        font-size: 140%;  
+        width: 150px;
+        height: 30px;   
+        margin-top: 40px;        
     }
     
     .footer-container, .footer-div {
         height: 80px;
-        font-size: 95%;
-        
+        font-size: 95%;        
     }
 
     table {
@@ -529,7 +535,7 @@ table {
         font-size: 110%;
     }
     
-
+    
 }
 
 /* For small to medium screen size from 950px width and below*/
@@ -563,16 +569,13 @@ table {
         padding-top: 5px;
         padding-bottom: 5px;        
         flex-wrap: nowrap;
-        justify-content: space-evenly;
-        
+        justify-content: space-evenly;        
     }
 
-    
     #menu a:hover {
         background-color: rgba(128, 131, 255, .5);
         height: 70%;
     }
-
 
     #logo {
         font-size: 130%;
@@ -619,8 +622,7 @@ table {
         align-items: center;
         height: fit-content;
         width: 100%; 
-        margin-top: 50px;       
-        
+        margin-top: 50px;        
     }
 
     .box1 {
@@ -684,7 +686,6 @@ table {
         font-size: 120%;
     }
 
-
     table {
         width: 280px;
         font-size: 80%;
@@ -714,6 +715,7 @@ table {
 
     .img-container {            
         padding-top: 100px;
+        flex-direction: column;
     }
 
     /* booking page*/
