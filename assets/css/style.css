@@ -676,10 +676,9 @@ table {
     }
 
 
-    .footer-container {
-        display: flex;  
+    .footer-container {          
         flex-direction: column;        
-        justify-items: center;        
+        justify-content: space-between;        
         background-color: white;
         color: #2e2e2e;
         height: 200px;
@@ -688,7 +687,7 @@ table {
     }
 
     .footer-div {
-        font-size: 120%;
+        font-size: 120%;        
     }
 
     table {
@@ -698,12 +697,15 @@ table {
 
     .mobile-footer {
         width: 100%;
-        height: 60px;
+        height: 25px;
         background-color: rgba(69, 67, 82, .5);
         color: #FAF7FF;
         text-align: center;
         padding-top: 10px;
-        padding-bottom: 10px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+               
     }
 
     #followus {
@@ -729,8 +731,12 @@ table {
     }
 
     /* action page */
-    .action-image {
-        
+    .action-image {        
+        display: none;                   
+    }
+
+    .action-message {
+        margin-bottom: 40px;
     }
 
 }
