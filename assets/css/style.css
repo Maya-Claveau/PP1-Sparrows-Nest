@@ -316,8 +316,7 @@ p {
     justify-content: space-evenly;
     background-color: rgba(69, 67, 82, .5);
     color: #FAF7FF;
-    height: 95px;
-    margin-top: -50px;
+    height: 95px;    
 }
 
 .footer-container h4 {
@@ -459,6 +458,7 @@ table {
     height: 50%;
     width: fit-content;
     margin: auto;
+    padding-bottom: 80px;
 }
 
 /* Media queries */
@@ -552,8 +552,9 @@ table {
     main {
         padding-bottom: 80px;
     }
+
      footer {
-         margin-top: -80px;
+         
      }
 
     /* header */
