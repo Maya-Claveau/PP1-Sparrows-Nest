@@ -535,6 +535,10 @@ table {
         font-size: 110%;
     }
     
+    /* action page */
+    .action-image {
+        padding-bottom: 70px;
+    }
     
 }
 
@@ -721,6 +725,11 @@ table {
     /* booking page*/
     .guests-container {
         display: block;
+    }
+
+    /* action page */
+    .action-image {
+        
     }
 
 }
