@@ -26,7 +26,8 @@ header {
     width: 100%;
     background-color: rgba(211, 251, 216, .9);
 }
-main {    
+
+main {
     flex-grow: 1;
 }
 
@@ -53,7 +54,8 @@ h2 {
     /* background-image: linear-gradient(to right, pink,yellow); */
     color: #2e2e2e;
     border-radius: 6px;
-    background: -webkit-linear-gradient(blue, purple); /* line 59-61 I borrowed from https://cssgradient.io/blog/css-gradient-text/*/
+    background: -webkit-linear-gradient(blue, purple);
+    /* line 59-61 I borrowed from https://cssgradient.io/blog/css-gradient-text/*/
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -97,7 +99,7 @@ h2 {
 }
 
 #menu a:active {
-    box-shadow: 0 0 50px gold;    
+    box-shadow: 0 0 50px gold;
 }
 
 
@@ -118,7 +120,7 @@ h2 {
     padding-top: 30px;
     position: relative;
     margin: auto;
-    
+
 
     /* animates zoom effect on loading page*/
     animation-name: main-zoom;
@@ -195,16 +197,17 @@ p {
 }
 
 .review-link a:hover {
-    color: #8083FF;    
+    color: #8083FF;
 }
 
 .review-link i {
     font-size: 200%;
 }
+
 /* Direction and map*/
 
 .container-2 {
-    display: flex;    
+    display: flex;
     justify-content: space-evenly;
     padding-bottom: 20px;
     align-content: flex-start;
@@ -233,7 +236,7 @@ p {
     display: flex;
     flex-direction: column;
     align-content: stretch;
-    justify-content:flex-start;
+    justify-content: flex-start;
     height: fit-content;
 }
 
@@ -247,7 +250,7 @@ p {
     height: 480px;
 }
 
-.box3 > p {
+.box3>p {
     text-align: center;
     padding: 0 10px 0 10px;
 }
@@ -261,7 +264,8 @@ p {
     flex: 1 0 auto;
 }
 
-.form input, .form textarea {
+.form input,
+.form textarea {
     width: 100%;
     height: 100%;
     color: #2E2E2E;
@@ -278,7 +282,7 @@ p {
     padding-top: 30px;
 }
 
-.form label {    
+.form label {
     font-weight: bold;
     float: left;
 }
@@ -300,10 +304,10 @@ p {
     margin-top: 40px;
 }
 
-#submit-button:active {    
-        background-color: #787586;        
-        transform: translateY(4px);
-      }
+#submit-button:active {
+    background-color: #787586;
+    transform: translateY(4px);
+}
 
 /* Footer */
 
@@ -312,7 +316,7 @@ p {
     justify-content: space-evenly;
     background-color: rgba(69, 67, 82, .5);
     color: #FAF7FF;
-    height: 95px;    
+    height: 95px;
 }
 
 .footer-container h4 {
@@ -324,7 +328,7 @@ p {
 
 /* Footer - Contact us and Opening Hours section*/
 
-table {    
+table {
     width: 350px;
     font-size: 100%;
 }
@@ -344,15 +348,15 @@ table {
 }
 
 .img-container {
-    display: flex;    
-    flex-wrap: wrap;    
+    display: flex;
+    flex-wrap: wrap;
     padding-top: 110px;
 }
 
 .img-item {
     margin: 5px;
     height: 40vh;
-    flex-grow: 1;    
+    flex-grow: 1;
     object-fit: cover;
 }
 
@@ -364,14 +368,14 @@ table {
     padding-top: 100px;
     align-items: center;
     height: fit-content;
-    width:auto;
-    flex: 1 0 auto;  
-    padding-bottom: 30px;  
+    width: auto;
+    flex: 1 0 auto;
+    padding-bottom: 30px;
 }
 
-.booking-form {    
+.booking-form {
     width: 80%;
-    height:fit-content;
+    height: fit-content;
     background-color: #D3FBD8;
     margin: auto;
     align-items: center;
@@ -386,7 +390,7 @@ table {
 }
 
 .guests-option {
-    text-align: left;     
+    text-align: left;
 }
 
 .guests-option tr {
@@ -408,7 +412,7 @@ table {
 }
 
 #submit-booking-button {
-    font-size: 140%;    
+    font-size: 140%;
     width: 150px;
     height: 45px;
     color: #8083FF;
@@ -429,8 +433,8 @@ table {
     background-color: #8083FF;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
-  }
-    
+}
+
 /* Form action-page */
 
 #action-page-main {
@@ -438,18 +442,19 @@ table {
     flex-direction: column;
     align-items: center;
 }
-    
+
 .action-message {
-    
+
     padding-top: 100px;
 }
+
 .action-message p {
     text-align: center;
-    padding-bottom: 50px;    
+    padding-bottom: 50px;
 }
 
 .action-image {
-    background: no-repeat;    
+    background: no-repeat;
 }
 
 /* Media queries */
@@ -486,7 +491,7 @@ table {
         width: 90%;
         height: 205px;
     }
-    
+
     .box3 {
         width: 80%;
         font-size: 100%;
@@ -505,15 +510,16 @@ table {
     }
 
     #submit-button {
-        font-size: 140%;  
+        font-size: 140%;
         width: 150px;
-        height: 30px;   
-        margin-top: 40px;        
+        height: 30px;
+        margin-top: 40px;
     }
-    
-    .footer-container, .footer-div {
-        
-        font-size: 95%;        
+
+    .footer-container,
+    .footer-div {
+
+        font-size: 95%;
     }
 
     table {
@@ -525,13 +531,13 @@ table {
         padding-right: 20px;
         font-size: 110%;
     }
-    
+
     /* action page */
 
     #action-page-main {
         flex-grow: 1;
     }
-           
+
 }
 
 
@@ -539,9 +545,9 @@ table {
 @media screen and (max-width: 950px) {
 
     body {
-        color: black; 
+        color: black;
     }
-        
+
     /* header */
     span {
         display: none;
@@ -554,12 +560,12 @@ table {
 
     #menu {
         font-size: 90%;
-        font-weight: bold;        
+        font-weight: bold;
         width: 100%;
         padding-top: 5px;
-        padding-bottom: 5px;        
+        padding-bottom: 5px;
         flex-wrap: nowrap;
-        justify-content: space-evenly;        
+        justify-content: space-evenly;
     }
 
     #menu a:hover {
@@ -610,9 +616,9 @@ table {
         flex-flow: column;
         align-items: center;
         height: fit-content;
-        width: 100%; 
-        
-        padding-bottom: 0;     
+        width: 100%;
+
+        padding-bottom: 0;
     }
 
     .box1 {
@@ -627,7 +633,7 @@ table {
     }
 
     .box3 {
-        width: fit-content;        
+        width: fit-content;
         flex-grow: 5;
         font-size: 130%;
         padding: 5px;
@@ -652,7 +658,7 @@ table {
         width: 90%;
         height: 180px;
     }
-    
+
     #submit-button {
         font-size: 140%;
         width: 150px;
@@ -661,9 +667,9 @@ table {
     }
 
 
-    .footer-container {          
-        flex-direction: column;        
-        justify-content: flex-start;        
+    .footer-container {
+        flex-direction: column;
+        justify-content: flex-start;
         background-color: white;
         color: #2e2e2e;
         height: fit-content;
@@ -675,7 +681,7 @@ table {
     }
 
     .footer-div {
-        font-size: 120%;        
+        font-size: 120%;
     }
 
     table {
@@ -689,7 +695,7 @@ table {
         background-color: rgba(69, 67, 82, .5);
         color: #FAF7FF;
         text-align: center;
-        padding-top: 15px;  
+        padding-top: 15px;
     }
 
     #followus {
@@ -704,14 +710,14 @@ table {
 
     /* Gallery page */
 
-    .img-container {            
+    .img-container {
         padding-top: 100px;
         flex-direction: column;
     }
 
     /* booking page*/
- 
-    form .booking-form {        
+
+    form .booking-form {
         margin: auto;
     }
 
@@ -735,11 +741,11 @@ table {
 
 
     /* action page */
-    .action-image {        
-        display: none;                   
+    .action-image {
+        display: none;
     }
 
-    .action-message {       
+    .action-message {
         margin-top: 40px;
     }
 
@@ -751,7 +757,7 @@ table {
         flex-wrap: 1;
     }
 
-    
-        
+
+
 
 }
