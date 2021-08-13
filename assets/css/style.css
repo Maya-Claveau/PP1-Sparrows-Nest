@@ -17,6 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    margin: 0;
 }
 
 header {
@@ -67,7 +68,6 @@ h2 {
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
-
 }
 
 #menu,
@@ -96,12 +96,8 @@ h2 {
     border-style: none;
 }
 
-/* #menu a:after {
-    border-bottom: 1px solid #8083ff;
-} */
-
 #menu a:active {
-    border-bottom: 2px solid rgba(128,131,255,.4);    
+    box-shadow: 0 0 50px gold;    
 }
 
 
@@ -309,7 +305,6 @@ p {
         transform: translateY(4px);
       }
 
-
 /* Footer */
 
 .footer-container {
@@ -326,11 +321,6 @@ p {
     text-align: center;
 }
 
-.footer-div, .mobile-footer {
-    height: 60px;
-    padding-top: 5px;
-    padding-bottom: 10px;
-}
 
 /* Footer - Contact us and Opening Hours section*/
 
@@ -376,7 +366,7 @@ table {
     height: fit-content;
     width:auto;
     flex: 1 0 auto;  
-    padding-bottom: 80px;  
+    padding-bottom: 30px;  
 }
 
 .booking-form {    
@@ -538,18 +528,12 @@ table {
     
     /* action page */
 
-    #action-page-body {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-    }
-
     #action-page-main {
         flex-grow: 1;
     }
-    
-       
+           
 }
+
 
 /* For small to medium screen size from 950px width and below*/
 @media screen and (max-width: 950px) {
@@ -608,8 +592,7 @@ table {
     #booking-reasons {
         font-size: 80%;
         width: 95%;
-        height: auto;
-        margin-bottom: 20px;
+        height: fit-content;
     }
 
     #booking-reasons h2 {
@@ -628,7 +611,8 @@ table {
         align-items: center;
         height: fit-content;
         width: 100%; 
-        margin-top: 50px;        
+        
+        padding-bottom: 0;     
     }
 
     .box1 {
@@ -684,7 +668,10 @@ table {
         color: #2e2e2e;
         height: fit-content;
         align-items: center;
-        flex-grow: 1;        
+    }
+
+    .footer-container div {
+        flex-grow: 1;
     }
 
     .footer-div {
@@ -702,11 +689,7 @@ table {
         background-color: rgba(69, 67, 82, .5);
         color: #FAF7FF;
         text-align: center;
-        padding-top: 10px;
-        position: fixed;
-        left: 0;
-        bottom: 0;
-               
+        padding-top: 15px;  
     }
 
     #followus {
@@ -727,9 +710,29 @@ table {
     }
 
     /* booking page*/
+ 
+    form .booking-form {        
+        margin: auto;
+    }
+
+    .guests-option {
+        height: fit-content;
+        margin: 0;
+    }
+
+    .guests-option table {
+        width: 250px;
+    }
+
+    .booking-form p {
+        font-size: 100%;
+    }
+
     .guests-container {
         display: block;
     }
+
+
 
     /* action page */
     .action-image {        
@@ -748,11 +751,7 @@ table {
         flex-wrap: 1;
     }
 
-    /* .footer-div, .mobile-footer {
-        height: 30px;
-        padding-top: 0;
-        margin: 0;
-        flex-grow: 1; */
+    
         
 
 }
