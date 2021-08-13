@@ -16,7 +16,7 @@ body {
     color: #2e2e2e;
     display: flex;
     flex-direction: column;
-    min-height: 100%;
+    min-height: 100vh;
 }
 
 header {
@@ -25,12 +25,8 @@ header {
     width: 100%;
     background-color: rgba(211, 251, 216, .9);
 }
-main {
-    padding-bottom: 50px;
-}
-
-footer {    
-    margin-top: -50px;
+main {    
+    flex-grow: 1;
 }
 
 /* headings and logo */
@@ -448,9 +444,14 @@ table {
     
 /* Form action-page */
 
+#action-page-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
     
 .action-message {
-    text-align: center;
+    
     padding-top: 100px;
 }
 .action-message p {
@@ -459,11 +460,7 @@ table {
 }
 
 .action-image {
-    background: no-repeat;
-    height: 50%;
-    width: fit-content;
-    margin: auto;
-    padding-bottom: 80px;
+    background: no-repeat;    
 }
 
 /* Media queries */
@@ -526,7 +523,7 @@ table {
     }
     
     .footer-container, .footer-div {
-        height: 80px;
+        
         font-size: 95%;        
     }
 
@@ -541,10 +538,18 @@ table {
     }
     
     /* action page */
-    .action-image {
-        padding-bottom: 70px;
+
+    #action-page-body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #action-page-main {
+        flex-grow: 1;
     }
     
+       
 }
 
 /* For small to medium screen size from 950px width and below*/
@@ -737,6 +742,7 @@ table {
     }
 
     .action-message {
+        padding-top: 150px;
         margin-bottom: 40px;
     }
 
