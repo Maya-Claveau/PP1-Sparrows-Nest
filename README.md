@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to my very first website [Sparrow's Nest](https://maya-claveau.github.io/PP1-Sparrows-Nest/)
 
 <img src="assets/images/responsive-mockup.png" width="800">
@@ -190,3 +191,6 @@ So THANK YOU ALL! Without your help my project wouldn't be the same.
 
 
 
+=======
+
+>>>>>>> b832dfe74c0e7bca9263c7524d80954c376dabd1
