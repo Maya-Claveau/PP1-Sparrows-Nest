@@ -36,7 +36,7 @@ main {
 h1,
 h2,
 h3 {
-    font-family: Josefin Sans, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #131313;
@@ -141,28 +141,22 @@ h2 {
 }
 
 #booking-button {
-    position: absolute;
-    color: #2e2e2e;
+    position: absolute;    
     font-size: 120%;
-    font-family: Josefin Sans, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-
-    width: 160px;
-    height: 50px;
-
+    padding: 16px 20px;
     background-color: rgba(211, 251, 216, .5);
     border-radius: 7px;
     top: 85%;
     left: 45%;
+    text-decoration: none;
 }
 
 #booking-button:hover {
     background-color: #D3FBD8;
-}
-
-#booking-button a {
-    text-decoration: none;
+    box-shadow: 0 0 8px gold;
 }
 
 /* why booking with us */
@@ -173,7 +167,7 @@ h2 {
 }
 
 #booking-reasons h2 {
-    padding-top: 100px;
+    padding-top: 180px;
 }
 
 .container-1 {
@@ -343,14 +337,18 @@ table {
 
 /* Gallery page*/
 
+#gallery-section h2 {
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
 #gallery-section {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .img-container {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 110px;
 }
 
 .img-item {
@@ -578,16 +576,13 @@ table {
         padding: 15px 0 20px 15px;
     }
 
-    #booking-button {
-        width: 100px;
-        height: 50px;
-        font-size: 70%;
+    #booking-button {        
+        font-size: 95%;
         left: 35%;
     }
 
-    #main-outlayer {
-        height: 500px;
-        padding-top: 140px;
+    #main-outlayer h2 {
+        font-size: 110%;
     }
 
     #main-image {
@@ -666,7 +661,6 @@ table {
         margin-top: 50px;
     }
 
-
     .footer-container {
         flex-direction: column;
         justify-content: flex-start;
@@ -710,8 +704,12 @@ table {
 
     /* Gallery page */
 
-    .img-container {
-        padding-top: 100px;
+    #gallery-section h2 {
+        margin-top: 110px;
+        margin-bottom: 10px;
+    }
+
+    .img-container {        
         flex-direction: column;
     }
 
@@ -754,7 +752,7 @@ table {
     }
 
     .action-page-main div {
-        flex-wrap: 1;
+        flex-grow: 1;
     }
 
 
