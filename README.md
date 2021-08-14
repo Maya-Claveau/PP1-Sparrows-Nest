@@ -1,104 +1,191 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Welcome to my very first website [Sparrow's Nest](https://maya-claveau.github.io/PP1-Sparrows-Nest/)
 
-Welcome Maya-Claveau,
+<img src="assets/images/responsive-mockup.png" width="800">
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+This website is for a holiday accommodation based in Larnaca Cyprus, intend for people who love travelling either for leisure or work, or for no special reason at all, you just want to be on this beautiful island. It is aiming to provide,
 
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- information about this accommodation including size, facilities and furnitures
+- communication channel of being able to send request or any message to the owner
+- phone number that people can call
+- direction to the location, to make the journey smooth
+- better idea of how it looks inside with lots of pictures
 
 ------
 
-## Release History
+## Why This
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+The reason I chose to build this website is because Sparrow’s Nest belongs to my best friends, and this place holds a special place in my heart. In May 2018, we were facing one of the most difficult moments of our life as a family, and this place was offered to us for an unlimited time, for free. Calling it our safe boat is understatement. In fact, we had created countless happy moments together with my best friend's family. We bonded after 10 years of being apart. Our kids also became very close. My son was 6 at the time, enjoyed the adventures we embarked together. He is calling them “my old best friends” to this day. This project is dedicated to my lifelong friends(in no preferential order), David, Elina, Jada and Daniel.
 
 ------
 
-## FAQ about the uptime script
+## Features:
+### Existing Features:
+#### Home page:
 
-**Why have you added this script?**
+When you land on the website, first you see the name of the accommodation on the top left. On the right hand side you will find navigation links including Gallery, Booking and Contact. Followed by a picture of the front door of the accommodation. There is also a Booking button at the bottom of the image. When it's clicked, it will take you to the booking page.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+<br>
+<img src="assets/images/features-landing-page.png" width="800">
+<br>
 
-**How will this affect me?**
+Next section contains useful information about the accommodation, aiming to let users know what to expect. As well as the location and brief description of the surrounding area. 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+For those who are curious of what other people think of this place, there is a link below the location, when it’s clicked it will take you to an external website: booking.com. 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+Pretty cool place right? Wanna know where is it exactly? No worries, you will find a good map to help you locate the place easily right below the review link.
+ 
+On the right side of the map, there is also a request form in place. The intention is to create a communication channel if the users have any questions, requests or just wishing to be added on the mailing list.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+<br>
+<img src="assets/images/features-desc-direction-form.png" width="800">
+<br>
 
-**So….?**
+You have reached the footer of the website, here you will find information about contact numbers, address, opening hours, and social media links if you would like to follow us on facebook, instagram, twitter or our youtube channels.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+<br>
+<img src="assets/images/features-footer.png" width="800">
+<br>
 
-**Can I opt out?**
+### Gallery page
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+When you head to our gallery page, you will see pictures of the accommodation both from inside and outside. It is aiming to provide a clear picture of the accommodation on top of the description on the home page, so users know exactly what to expect.From here, you can easily go back to home or any other pages using the navigation links on the top right side. The footer containing contact info can be spotted easily as well. 
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+<br>
+<img src="assets/images/features-gallery-page.png" width="800">
+<br>
 
-**Anything more?**
+### Booking Page
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+When you click on the “Book Now” button on the landing image or the Booking on the navigation bar, it will take you to the booking form page. To keep the procedure simple, all you need to do is fill in the name, mail address, dates for check in and out, the number of guests (please note that due to the fact that this accommodation is only 23 sqm, the options are only between 1-3, more than that is not realistic). And here you will have another option to send a message to the owner if you would like. Both navigation links at the top and contact info at the bottom are visible as well from this page.
 
----
+<br>
+<img src="assets/images/features-booking-page.png" width="800">
+<br>
 
-Happy coding!
+Finally when you send a message or the booking request, after you have hit the send button, you will land on a page which confirms that your form is received. With a complimentary picture of Cavo Greco in Cyprus, just to give you an idea of where you could go and visit once you are here. Both navigation links at the top and contact info at the bottom are visible as well from the confirmation page.
+
+<br>
+<img src="assets/images/features-confirmation-page.png" width="800">
+<br>
+
+### Features to be added in the future
+
+- On the booking form, the date element is only validated by “required”, no other validation method is used at this point, since this website is build with only html and css. Once I am equipped with the relevant knowledge, I am planning to add it.
+- I didn't have time to do the 404 page, would be nice to have it
+- Chatbox could be also useful for instant communication
+- The website also needs a privacy and terms page
+- Add information of the surrounding area, especially somewhere you could walk/bike to
+- Add local events
+- Add bus routes to other cities
+- Add taxi offices contacting numbers and prices
+- Add more pictures 
+
+------
+
+## Testing:
+
+I used google dev tools heavily for testing purposes. I discovered:
+
+1. Home page has a mysterious extra width. After countless hours of battle, with my amazing mentor’s hint, I finally figured out that the cause was the image. Once I fix that, it looks all fine and sleek as it should look in my head. See screenshot below:
+
+Before <img src="assets/images/testing-home-page-issue-before.png" width="150"> After <img src="assets/images/testing-home-page-issue-after.png" width="150">
+
+2. Footer, sticky footer, unsprisinly, it was one of the challenges I faced. After many videos, tutorios, reading articles and trying different methods, I finally managed with the help of flexbox, thanks to Jim from Code Institute who shared this super easy to understand post on Slack. 
+
+Before <img src="assets/images/testing-footer-issue-before.png" width="150"> After <img src="assets/images/testing-footer-issue-after.png" width="150">
+
+
+3. The final version of Navigation bar on the mobile version wasn’t looking the same with my original plan from the wireframes. Because I didn’t think of the functionality other than the design itself. With my mentor’s suggestion, this is how the final version looks like. More user friendly compared to my first plan. 
+
+Before <img src="assets/images/testing-mob-v-navbar-before.png" width="150"> After <img src="assets/images/testing-mob-v-navbar-after.png" width="150">
+
+
+4. The website took it's shape as I was working on it, an example below is the direction and request form section, you can see the jorney it took to progress. 
+
+<img src="assets/images/testing-dir-reqform-v1.png" width="150"> <img src="assets/images/testing-dir-reqform-v2.png" width="150"> <img src="assets/images/testing-dir-reqform-vfinal.png" width="150">
+
+------
+
+## Validator Testing"
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input)
+  <br>
+  <img src="assets/images/validation-html-index-page.png" width="150"> <img src="assets/images/validation-html-gallery-page.png" width="150"> <img src="assets/images/validation-html-booking-page.png" width="150"> <img src="assets/images/validation-html-action-page.png" width="150">
+
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input). Please note that warnings on CSS I tried to fix them, but the remaining 4 warnings is the code I borrowed from someone else, therefore I left it there, since I don't have the knowledge to fix it at this point.
+  <br>
+  <img src="assets/images/validation-css.png" width="150"> <img src="assets/images/validation-css.png" width="150">
+
+------
+
+## Language used:
+
+- HTML
+- CSS
+
+------
+
+## Tools used: 
+
+- [Google Fonts](https://fonts.google.com/) for selecting the fonts for the project 
+
+- [Font Color](https://mycolor.space/?hex=%232E2E2E&sub=1) I used colorspace to pick the highlight palettes, which in my opinion is nice and simple. <img src="assets/images/color-palette.png" width="150">
+
+- [Am I Responsive](http://ami.responsivedesign.is/) for making the responsive screenshot
+
+------
+
+## Deployment
+[Gidhub Pages](https://pages.github.com/) was used to deploy the project, in the following steps:
+
+1. On the Github repository, click on Settings
+2. Then click on Page from the lower left of the screen
+3. Select Main and click Save
+
+<img src="assets/images/github-deployment-step1.png" width="150"> <img src="assets/images/github-deployment-step2.png" width="150"> <img src="assets/images/github-deployment-step3.png" width="150">
+
+Then a link will be generated for live view, it can be found [here](https://maya-claveau.github.io/PP1-Sparrows-Nest/)
+
+
+------
+
+## Things I tried but didn't work
+
+1. The main image on the home page, what I wanted to do involved JavaScript (see screenshot wireframe), so I changed to a more simple layout for this project.
+2. On the forms I wanted to use the fieldset element along with legend element, but it didn't work with the structure that I have.
+
+------
+
+## Difficulties that I manage to overcome: 
+
+1. on the main-outlayer has a big gap of blue, I manage to remove it. 
+2. When I create a form what database do I use for the action attribute? 
+Solution: I created a simple thank you page, that way if the form is correctly completed, they get the thank you message. (credit to fellow student Matt Bodden_5P who shared this idea on slack)
+3. The biggest challenge for me was the responsive design. I spend way too many hours on it. A note to myself, next time around I start from the mobile version and then expand to bigger screens and see how it works for me.
+
+------
+
+## Credits:
+- [Code Institute's Love Running project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
+- [W3C Schools](https://www.w3schools.com), [Mozilla Developer](https://developer.mozilla.org) and [Stackoverflow](https://stackoverflow.com/) for countless different elements and how to use them 
+- [Dev Ed channel](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q) for styling the input element
+- [CSS Tricks](https://css-tricks.com/css-basics-styling-links-like-boss/) for styling the links
+- [CSS tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) for learning how to use flexbox
+- [Michael Polla](https://gist.github.com/MichaelPolla/a65ac84286ab523603e64549f9850223) for resize the images/screenshots in README.md file
+- [Pexels](https://www.pexels.com/photo/blue-body-of-water-373409/) for downloading the stunning picture of Cavo Greco in Cyprus. Other images used were sent by the owner of Sparrow's Nest. 
+
+------
+
+## Acknowledgments
+My amazing mentor for continuous and structured feedback.
+
+Tutor support at Code Institute for their support.
+
+Fellow students and Code Institute at Slack community for their generous sharing of information and ideas.
+
+So THANK YOU ALL! Without your help my project wouldn't be the same. 
+
+
+
+
