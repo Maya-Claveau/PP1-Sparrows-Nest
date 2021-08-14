@@ -172,6 +172,7 @@ Solution: I created a simple thank you page, that way if the form is correctly c
 - [Dev Ed channel](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q) for styling the input element
 - [CSS Tricks](https://css-tricks.com/css-basics-styling-links-like-boss/) for styling the links
 - [CSS tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) for learning how to use flexbox
+- [CSS Gradient](https://cssgradient.io/blog/css-gradient-text/) for change the font color of the logo
 - [Michael Polla](https://gist.github.com/MichaelPolla/a65ac84286ab523603e64549f9850223) for resize the images/screenshots in README.md file
 - [Pexels](https://www.pexels.com/photo/blue-body-of-water-373409/) for downloading the stunning picture of Cavo Greco in Cyprus. Other images used were sent by the owner of Sparrow's Nest. 
 
