@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Welcome to my very first website [Sparrow's Nest](https://maya-claveau.github.io/PP1-Sparrows-Nest/)
 
 <img src="assets/images/responsive-mockup.png" width="800">
@@ -186,11 +185,10 @@ Tutor support at Code Institute for their support.
 
 Fellow students and Code Institute at Slack community for their generous sharing of information and ideas.
 
+A special shout out to Scott Böning who helped me to save my work on Git when I messed up the README version on Github and Gitpod on a Saturday evening.
+
 So THANK YOU ALL! Without your help my project wouldn't be the same. 
 
 
 
 
-=======
-
->>>>>>> b832dfe74c0e7bca9263c7524d80954c376dabd1
