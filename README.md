@@ -71,6 +71,7 @@ Finally when you send a message or the booking request, after you have hit the s
 ### Features to be added in the future
 
 - On the booking form, the date element is only validated by “required”, no other validation method is used at this point, since this website is build with only html and css. Once I am equipped with the relevant knowledge, I am planning to add it.
+- Would also be helpful to have a price list and showing the total price when people filling the booking page
 - I didn't have time to do the 404 page, would be nice to have it
 - Chatbox could be also useful for instant communication
 - The website also needs a privacy and terms page
@@ -90,7 +91,7 @@ I used google dev tools heavily for testing purposes. I discovered:
 
 Before <img src="assets/images/testing-home-page-issue-before.png" width="150"> After <img src="assets/images/testing-home-page-issue-after.png" width="150">
 
-2. Footer, sticky footer, unsprisinly, it was one of the challenges I faced. After many videos, tutorios, reading articles and trying different methods, I finally managed with the help of flexbox, thanks to Jim from Code Institute who shared this super easy to understand post on Slack. 
+2. Footer, sticky footer, unsurprisingly, it was one of the challenges I faced. After many videos, tutorios, reading articles and trying different methods, I finally managed with the help of flexbox, thanks to Jim from Code Institute who shared this super easy to understand post on Slack. 
 
 Before <img src="assets/images/testing-footer-issue-before.png" width="150"> After <img src="assets/images/testing-footer-issue-after.png" width="150">
 
@@ -100,9 +101,11 @@ Before <img src="assets/images/testing-footer-issue-before.png" width="150"> Aft
 Before <img src="assets/images/testing-mob-v-navbar-before.png" width="150"> After <img src="assets/images/testing-mob-v-navbar-after.png" width="150">
 
 
-4. The website took it's shape as I was working on it, an example below is the direction and request form section, you can see the jorney it took to progress. 
+4. The website took it's shape as I was working on it, an example below is the direction and request form section, you can see the journey it took to progress. 
 
 <img src="assets/images/testing-dir-reqform-v1.png" width="150"> <img src="assets/images/testing-dir-reqform-v2.png" width="150"> <img src="assets/images/testing-dir-reqform-vfinal.png" width="150">
+
+5. The Book Now link on the landing image is not centered on device width between 450 - 990px, I am aware of this issue, due to time constraints, I didn’t get it fixed.
 
 ------
 

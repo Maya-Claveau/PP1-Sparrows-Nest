@@ -111,6 +111,7 @@ h2 {
     clear: both;
     padding-top: 120px;
     margin: auto;
+    text-align: center;
 }
 
 #main-image {
@@ -120,6 +121,7 @@ h2 {
     padding-top: 30px;
     position: relative;
     margin: auto;
+    display: inline-block;
 
 
     /* animates zoom effect on loading page*/
@@ -578,7 +580,7 @@ table {
 
     #booking-button {        
         font-size: 95%;
-        left: 35%;
+        left: 20vw;
     }
 
     #main-outlayer h2 {
@@ -682,6 +684,7 @@ table {
     table {
         width: 280px;
         font-size: 80%;
+        margin-bottom: 10px;
     }
 
     .mobile-footer {
@@ -690,7 +693,7 @@ table {
         background-color: rgba(69, 67, 82, .5);
         color: #FAF7FF;
         text-align: center;
-        padding-top: 15px;
+        padding-top: 10px;
     }
 
     #followus {
